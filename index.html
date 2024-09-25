@@ -10,27 +10,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav id="navigationpart">
-<ul id="navimenu">
+  
+  <div class="pc">
+  <header><nav id="navigationpart">
 <p id="myprofile">MyProfile</p>
+<ul id="navimenu">
 <li><a id="navother" href="index.html#About">About</a></li>
 <li><a id="navworks" href="index.html#Works">Works</a></li>
 </ul>
-  </nav>
+  </nav></header>
 
   <article>
 <img src="./images/main.png" alt="mainphoto" id="mainphoto">
 
 <section id="About">
   <h2 id="AboutTitle">About</h2>
-  <h3>Kazuki Asahina</h3>
-  <ul id="profilelist">
-  <li>25歳 長野県佐久市出身</li>
-  <li>ソフトウェア業界でマーケティングに従事</li>
-  <li>趣味はカメラ、愛機はCanon</li>
-  <li>自然を撮影するのが好きで、海や山によく行く</li>
-  </ul>
-<img src="./images/about.png" alt="profilephoto" id="profilephoto">
+  <div id="aboutimage">
+    <img src="./images/about.png" alt="profilephoto" id="profilephoto">
+    <div>
+      <h3>Kazuki Asahina</h3>
+      <ul id="profilelist">
+        <li>25歳 長野県佐久市出身</li>
+        <li>ソフトウェア業界でマーケティングに従事</li>
+        <li>趣味はカメラ、愛機はCanon</li>
+        <li>自然を撮影するのが好きで、海や山によく行く</li>
+      </ul>
+    </div>
+  </div>
+
 </section>
 
 <section id="Works">
@@ -58,5 +65,61 @@
     © MyProfile. All rights reserved.
 
   </footer>
+</div>
+<div class="sp">
+  <header><nav id="navigationpart">
+    <p id="myprofile">MyProfile</p>
+    <ul id="navimenu">
+    <li><a id="navother" href="index.html#About">About</a></li>
+    <li><a id="navworks" href="index.html#Works">Works</a></li>
+    </ul>
+      </nav></header>
+    
+      <article>
+    <img src="./images/main.png" alt="mainphoto" id="mainphoto">
+    
+    <section id="About">
+      <h2 id="AboutTitle">About</h2>
+      <div id="aboutimage">
+        <img src="./images/about.png" alt="profilephoto" id="profilephoto">
+        <div>
+          <h3>Kazuki Asahina</h3>
+          <ul id="profilelist">
+            <li>25歳 長野県佐久市出身</li>
+            <li>ソフトウェア業界でマーケティングに従事</li>
+            <li>趣味はカメラ、愛機はCanon</li>
+            <li>自然を撮影するのが好きで、海や山によく行く</li>
+          </ul>
+        </div>
+      </div>
+    
+    </section>
+    
+    <section id="Works">
+      <h2 id="WorksTitle">Works</h2>
+    
+    <div class="worksall">
+    <div id="item1">
+    <img src="./images/works1.png" alt="work1" id="workpic1">
+    <p id="worktalk1">新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
+    </div>
+    
+    <div id="item2">
+      <img src="./images/works2.png" alt="work2" id="workpic2">
+      <p id="worktalk2">地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+    </div>
+    
+    <div id="item3">
+      <img src="./images/works3.png" alt="work3" id="workpic3">
+      <p id="worktalk3">京都で撮影した、明け方の古き良き日本の町並み</p>
+    </div>
+    </div>
+    </section>
+      </article>
+      <footer>
+        © MyProfile. All rights reserved.
+    
+      </footer>
+</div>
 </body>
 </html>
